@@ -68,7 +68,7 @@ const Login = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
             <p>
-              {`Don't have an account?{" "}`}
+              {`Don't have an account? `}
               <Link href="/signup" className="text-blue-500 font-medium">
                 Register
               </Link>
