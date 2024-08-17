@@ -1,0 +1,87 @@
+/* @font-face {
+  font-family: "CustomFont";
+  src: url("/font.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+} */
+
+body {
+  font-family: "system-ui", sans-serif;
+  background: #f1f5f9;
+  color: #282828;
+}
+
+.stepscard {
+  background: #222222;
+  backdrop-filter: blur(20px);
+  color: #e2e8f0;
+  transition: 0.5s ease-in-out;
+}
+.stepscard:hover {
+  background-color: #222222fa;
+}
+
+.hero {
+  background-color: #f1f5f9;
+  background-image: radial-gradient(circle, #27272727 2px, transparent 2px);
+  background-size: 40px 40px;
+  backdrop-filter: blur(20px);
+  color: #282828;
+}
+
+.tags {
+  background-color: #363636ef;
+  color: #e2e8f0;
+}
+
+.subhead {
+  color: #28282895;
+}
+
+.input {
+  border: 1px solid #28282895;
+  color: #282828;
+}
+
+.spax {
+  background-color: #e2e8f095;
+}
+.navbar,
+.footer {
+  background: #222222;
+  backdrop-filter: blur(20px);
+  color: #e2e8f0;
+}
+.slow {
+  transition: 0.5s ease-in-out;
+}
+.card {
+  background-color: #e2e8f0;
+  color: #27272a;
+  border: 2px solid #27272a;
+}
+
+.btn {
+  background-color: #282828;
+  color: #e2e8f0;
+  transition: 0.5s ease-in-out;
+  backdrop-filter: blur(20px);
+}
+.btn:hover {
+  background-color: #282828e3;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #18181b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #27272a;
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #18181b;
+}
