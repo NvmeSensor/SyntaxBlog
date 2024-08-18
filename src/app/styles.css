@@ -12,13 +12,13 @@ body {
 }
 
 .stepscard {
-  background: #222222;
+  background: #2e3440;
   backdrop-filter: blur(20px);
   color: #e2e8f0;
   transition: 0.5s ease-in-out;
 }
 .stepscard:hover {
-  background-color: #222222fa;
+  background-color: #2e3440fa;
 }
 
 .hero {
@@ -48,7 +48,7 @@ body {
 }
 .navbar,
 .footer {
-  background: #222222;
+  background: #2e3440;
   backdrop-filter: blur(20px);
   color: #e2e8f0;
 }
@@ -62,13 +62,13 @@ body {
 }
 
 .btn {
-  background-color: #282828;
+  background-color: #4b5563;
   color: #e2e8f0;
   transition: 0.5s ease-in-out;
   backdrop-filter: blur(20px);
 }
 .btn:hover {
-  background-color: #282828e3;
+  background-color: #2e3440;
 }
 
 textarea::-webkit-scrollbar { 
