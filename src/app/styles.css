@@ -71,6 +71,10 @@ body {
   background-color: #282828e3;
 }
 
+textarea::-webkit-scrollbar { 
+  display: none;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   background-color: #18181b;
